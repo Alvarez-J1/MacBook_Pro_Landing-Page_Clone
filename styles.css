@@ -75,7 +75,7 @@ a:focus-visible {
     padding: 1rem;
     margin: auto;
     max-width: 1200px;
-    color: #bbbbbb;
+    color: var(--color-text);
 }
 
 .header__left-column {
