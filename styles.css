@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* General */
+:root {
+    --color-page-start: rgb(33, 33, 33);
+    --color-page-end: rgb(0, 0, 0);
+    --color-text: #bbbbbb;
+    --color-text-soft: #bbb;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-overlay: rgba(0, 0, 0, 0.9);
+    --color-footer-surface: rgba(0, 0, 0, 0.1);
+    --color-border-subtle: #555;
+    --color-border-panel: #434343;
+    --color-accent: #5120d2;
+    --color-muted-hover: #959595;
+    --color-link-hover: rgba(127, 123, 123, 0.62);
+    --color-hero-start: rgb(203, 101, 16);
+    --color-hero-end: rgb(34, 25, 217);
+    --color-play-hover: rgba(255, 255, 255, 0.3);
+    --color-spec-divider: rgba(255, 255, 255, 0.1);
+}
+
 html {
     overflow-x: hidden;
 }
@@ -8,9 +28,9 @@ html {
 body, html {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgb(33, 33, 33) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(90deg, var(--color-page-start) 0%, var(--color-page-end) 100%);
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #bbbbbb;
+    color: var(--color-text);
     scroll-behavior: smooth;
 }
 
