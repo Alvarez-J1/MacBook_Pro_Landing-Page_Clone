@@ -178,7 +178,7 @@ a:focus-visible {
 }
 
 .nav__link {
-    color: #bbbbbb;
+    color: var(--color-text);
     font-weight: 400;
     text-decoration: none;
 }
