@@ -502,7 +502,7 @@ a:focus-visible {
     top: 10px;
     right: 10px;
     font-size: 1.25rem;
-    color: #bbbbbb;
+    color: var(--color-text);
     text-decoration: none;
 }
 
