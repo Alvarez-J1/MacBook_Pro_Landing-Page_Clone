@@ -445,8 +445,8 @@ a:focus-visible {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 1rem;
-    background-color: rgba(0,0,0,0.9);
-    color: #bbbbbb;
+    background-color: var(--color-overlay);
+    color: var(--color-text);
 }
 
 .basket-title {
