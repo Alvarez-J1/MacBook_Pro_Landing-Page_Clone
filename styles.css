@@ -435,7 +435,7 @@ a:focus-visible {
 
 .close:hover,
 .close:focus {
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
     cursor: pointer;
 }
