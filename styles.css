@@ -291,7 +291,7 @@ a:focus-visible {
     justify-content: center;
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fff;
+    color: var(--color-white);
     padding: 0.5rem 0.65rem;
     border: 2px solid #bbbbbb;
     border-radius: 50%;
