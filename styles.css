@@ -166,7 +166,7 @@ a:focus-visible {
 }
 
 .cart-count:hover {
-    background: #959595;
+    background: var(--color-muted-hover);
     cursor: pointer;
 }
 
