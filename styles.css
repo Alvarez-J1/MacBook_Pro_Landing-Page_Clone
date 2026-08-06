@@ -262,7 +262,6 @@ a:focus-visible {
 }
 
 .hero__button:hover {
-    background: linear-gradient(90deg, rgb(203, 101, 16) 0%, rgb(34, 25, 217) 100%);
     opacity: 0.8;
 }
 
