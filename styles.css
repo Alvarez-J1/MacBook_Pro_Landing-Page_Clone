@@ -423,7 +423,7 @@ a:focus-visible {
 }
 
 .close {
-    color: #bbbbbb;
+    color: var(--color-text);
     position: absolute;
     top: 20%;
     right: 20px;
