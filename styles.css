@@ -14,6 +14,34 @@ body, html {
     scroll-behavior: smooth;
 }
 
+.skip-link {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    background: #000;
+    border: 1px solid #bbbbbb;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transform: translateY(-150%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+}
+
+a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+}
+
+#main-content:focus {
+    outline: none;
+}
+
 .header {
     position: relative;
     display: flex;
@@ -93,10 +121,6 @@ body, html {
     font-size: 1.25rem;
 }
 
-.header__right-column i:hover {
-    cursor: pointer;
-}
-
 /* Cart Icon */
 .cart-icon {
     position: relative;
@@ -140,14 +164,8 @@ body, html {
 
 /* Fade-in animations */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .fade-in {
@@ -425,11 +443,6 @@ body, html {
     margin: 0;
 }
 
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
 @keyframes slideIn {
     from {top: -300px; opacity: 0;}
     to {top: 0; opacity: 1;}
@@ -451,7 +464,8 @@ body, html {
 }
 
 .basket-dropdown:target,
-.cart-icon-wrapper:hover .basket-dropdown {
+.cart-icon-wrapper:hover .basket-dropdown,
+.cart-icon-wrapper:focus-within .basket-dropdown {
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
@@ -634,4 +648,28 @@ body, html {
 
 .footer__legal a:hover {
     text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body, html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-delay: 0ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .fade-in,
+    .hero,
+    .specs,
+    .footer__middle,
+    .footer__bottom {
+        opacity: 1;
+        transform: none;
+    }
 }

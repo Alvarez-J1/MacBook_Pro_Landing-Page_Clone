@@ -10,13 +10,14 @@
     <title>Apple - Macbook Pro</title>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="header">
     <div class="header__left-column">
         <div class="header__logo">
-            <img class="header__logo__image" src="./images/Apple_logo_grey.png" alt="apple logo grey"/>
+            <img class="header__logo__image" src="./images/Apple_logo_grey.png" alt="" aria-hidden="true"/>
             <p class="header__logo__text">Apple</p>
         </div>
-        <nav class="nav">
+        <nav class="nav" aria-label="Primary">
             <a class="nav__link" href="#store">Store</a>
             <a class="nav__link" href="#accessories">Accessories</a>
             <a class="nav__link" href="#blog">Blog</a>
@@ -24,18 +25,18 @@
         </nav>
     </div>
     <div class="header__right-column">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-magnifying-glass header__search-icon" aria-hidden="true"></i>
         <div class="cart-icon-wrapper">
-            <a href="#basketDropdown" class="cart-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="cart-count">1</span>
+            <a href="#basketDropdown" class="cart-icon" aria-label="Open basket, 1 item">
+                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                <span class="cart-count" aria-hidden="true">1</span>
             </a>
-            <div id="basketDropdown" class="basket-dropdown">
+            <div id="basketDropdown" class="basket-dropdown" role="region" aria-labelledby="basket-title">
                 <div class="basket-content">
-                    <a href="#" class="close">&times;</a>
-                    <h2 class="basket-title">In Your Basket</h2>
+                    <a href="#" class="close" aria-label="Close basket"><span aria-hidden="true">&times;</span></a>
+                    <h2 id="basket-title" class="basket-title">In Your Basket</h2>
                     <div class="basket-item">
-                        <img src="./images/mbp.png" alt="Macbook Pro 2024">
+                        <img src="./images/mbp.png" alt="" aria-hidden="true" loading="lazy">
                         <div class="basket-item-details">
                             <h3>Macbook Pro 2024</h3>
                             <p>Price: $1999</p>
@@ -46,23 +47,23 @@
         </div>
     </div>
 </header>
-<main>
-    <section class="hero fade-in">
+<main id="main-content" tabindex="-1">
+    <section class="hero fade-in" aria-labelledby="hero-title">
         <div class="hero__image">
-            <img src="./images/mbp.png" alt="Macbook Pro 2024">
+            <img src="./images/mbp.png" alt="MacBook Pro laptop">
         </div>
         <div class="hero__text">
-            <h1 class="hero__title">Macbook Pro 2024</h1>
+            <h1 id="hero-title" class="hero__title">Macbook Pro 2024</h1>
             <h2 class="hero__subtitle">Supercharged for pros.</h2>
-            <p class="hero__description">The most powerful MacBook Pro ever is here. With the blazing-fast M3 Pro or M3 Max chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+            <p class="hero__description">The most powerful MacBook Pro ever is here. With the blazing-fast M3 Pro or M3 Max chip &mdash; the first Apple silicon designed for pros &mdash; you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
             <p class="hero__price">From $1999</p>
             <div class="hero__buttons">
                 <a class="hero__button" href="#order">Order Now</a>
-                <a class="hero__playbutton" href="#videoModal"><i class="fa-solid fa-play"></i></a>
+                <a class="hero__playbutton" href="#videoModal" aria-label="Play product video"><i class="fa-solid fa-play" aria-hidden="true"></i></a>
             </div>
         </div>
     </section>
-    <section class="specs fade-in">
+    <section class="specs fade-in" aria-label="MacBook Pro performance highlights">
         <div class="spec">
             <h3 class="spec__title">3.7x</h3>
             <p class="spec__description">faster CPU performance</p>
@@ -83,9 +84,9 @@
 </main>
 
 <!-- Video Modal Structure -->
-<div id="videoModal" class="modal">
+<div id="videoModal" class="modal" role="dialog" aria-label="MacBook Pro product video">
     <div class="modal-content">
-        <a href="#" class="close">&times;</a>
+        <a href="#" class="close" aria-label="Close video"><span aria-hidden="true">&times;</span></a>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iQ-t75mj0Io" title="The new MacBook Pro | Supercharged for pros | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
@@ -93,15 +94,15 @@
 <footer class="footer fade-in">
     <div class="footer__container">
         <div class="footer__top">
-            <div class="footer__breadcrumbs">
-                <a href="#"><i class="fa-solid fa-apple"></i></a>
-                <span> > </span>
+            <nav class="footer__breadcrumbs" aria-label="Breadcrumb">
+                <a href="#" aria-label="Apple"><i class="fa-solid fa-apple" aria-hidden="true"></i></a>
+                <span aria-hidden="true"> > </span>
                 <a href="#">Mac</a>
-                <span> > </span>
+                <span aria-hidden="true"> > </span>
                 <a href="#">MacBook Pro</a>
-                <span> > </span>
+                <span aria-hidden="true"> > </span>
                 <a href="#">MacBook Pro 14-inch and 16-inch</a>
-            </div>
+            </nav>
         </div>
         <div class="footer__middle">
             <div class="footer__column">
@@ -163,7 +164,7 @@
         <div class="footer__bottom">
             <span class="footer__bottom-retailer"><a href="#">Find a retailer</a> near you.</span>
             <div class="footer__legal">
-                <span>Copyright © 2024 Apple Inc. All rights reserved.</span>
+                <span>Copyright &copy; 2024 Apple Inc. All rights reserved.</span>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Legal</a>
                 <a href="#">Site Map</a>
