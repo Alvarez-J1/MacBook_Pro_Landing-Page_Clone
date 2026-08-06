@@ -393,6 +393,7 @@ a:focus-visible {
 }
 
 .modal-content iframe {
+    border: 0;
     max-height: 700px;
 }
 
