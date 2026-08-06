@@ -293,7 +293,7 @@ a:focus-visible {
     font-size: 1.5rem;
     color: var(--color-white);
     padding: 0.5rem 0.65rem;
-    border: 2px solid #bbbbbb;
+    border: 2px solid var(--color-text);
     border-radius: 50%;
     text-align: center;
     transition: background 0.3s ease-in-out;
