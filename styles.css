@@ -306,7 +306,7 @@ a:focus-visible {
 }
 
 .hero__playbutton:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: var(--color-play-hover);
 }
 
 .hero__image {
