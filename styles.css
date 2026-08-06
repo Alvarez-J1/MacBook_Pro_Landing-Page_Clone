@@ -184,7 +184,7 @@ a:focus-visible {
 }
 
 .nav__link:hover {
-    color: rgba(127, 123, 123, 0.62);
+    color: var(--color-link-hover);
 }
 
 /* Fade-in animations */
