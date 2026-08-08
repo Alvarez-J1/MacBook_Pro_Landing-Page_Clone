@@ -177,7 +177,7 @@ a:focus-visible {
     font-size: 0.75rem;
 }
 
-.cart-count:hover {
+.cart-icon:hover .cart-count {
     background: var(--color-muted-hover);
     cursor: pointer;
 }
