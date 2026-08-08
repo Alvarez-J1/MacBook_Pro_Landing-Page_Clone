@@ -643,7 +643,7 @@ a:focus-visible {
 
 .footer__bottom a {
     text-decoration: none;
-    color: #bbb;
+    color: var(--color-text-soft);
 }
 
 .footer__bottom a:hover {
