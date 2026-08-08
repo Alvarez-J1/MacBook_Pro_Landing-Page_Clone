@@ -580,7 +580,8 @@ a:focus-visible {
     text-decoration: none;
 }
 
-.footer__breadcrumbs a:hover {
+.footer__breadcrumbs a:hover,
+.footer__breadcrumbs a:focus-visible {
     text-decoration: underline;
 }
 
