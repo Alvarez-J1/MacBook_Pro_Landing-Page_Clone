@@ -536,7 +536,7 @@ a:focus-visible {
 /* Footer */
 .footer {
     background-color: var(--color-footer-surface);
-    color: #bbb;
+    color: var(--color-text-soft);
     padding: 2rem 1rem;
 }
 
