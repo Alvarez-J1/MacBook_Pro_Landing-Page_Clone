@@ -295,7 +295,8 @@ a:focus-visible {
     margin-top: 3rem;
 }
 
-.hero__button:hover {
+.hero__button:hover,
+.hero__button:focus-visible {
     opacity: 0.8;
 }
 
