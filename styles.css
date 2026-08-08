@@ -609,7 +609,7 @@ a:focus-visible {
 }
 
 .footer__column ul li a {
-    color: #bbb;
+    color: var(--color-text-soft);
     text-decoration: none;
     font-size: 0.875rem;
 }
