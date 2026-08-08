@@ -546,7 +546,7 @@ a:focus-visible {
 }
 
 .footer__top {
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid var(--color-border-subtle);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
