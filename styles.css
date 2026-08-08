@@ -196,7 +196,8 @@ a:focus-visible {
     text-decoration: none;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus-visible {
     color: var(--color-link-hover);
 }
 
