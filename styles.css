@@ -560,7 +560,7 @@ a:focus-visible {
 }
 
 .footer__breadcrumbs a {
-    color: #bbb;
+    color: var(--color-text-soft);
     text-decoration: none;
 }
 
