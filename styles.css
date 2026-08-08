@@ -665,7 +665,7 @@ a:focus-visible {
 }
 
 .footer__legal span {
-    color: #bbb;
+    color: var(--color-text-soft);
 }
 
 .footer__legal a {
