@@ -535,7 +535,7 @@ a:focus-visible {
 
 /* Footer */
 .footer {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--color-footer-surface);
     color: #bbb;
     padding: 2rem 1rem;
 }
