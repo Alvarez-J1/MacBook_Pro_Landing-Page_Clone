@@ -320,7 +320,8 @@ a:focus-visible {
     left: 1px;
 }
 
-.hero__playbutton:hover {
+.hero__playbutton:hover,
+.hero__playbutton:focus-visible {
     background: var(--color-play-hover);
 }
 
