@@ -669,7 +669,7 @@ a:focus-visible {
 }
 
 .footer__legal a {
-    color: #bbb;
+    color: var(--color-text-soft);
     text-decoration: none;
 }
 
