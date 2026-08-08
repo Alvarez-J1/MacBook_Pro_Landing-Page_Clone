@@ -631,7 +631,8 @@ a:focus-visible {
     font-size: 0.875rem;
 }
 
-.footer__column ul li a:hover {
+.footer__column ul li a:hover,
+.footer__column ul li a:focus-visible {
     text-decoration: underline;
 }
 
