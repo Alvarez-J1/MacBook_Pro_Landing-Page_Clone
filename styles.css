@@ -710,6 +710,7 @@ a:focus-visible {
     .fade-in,
     .hero,
     .specs,
+    .modal-content,
     .footer__middle,
     .footer__bottom {
         opacity: 1;
