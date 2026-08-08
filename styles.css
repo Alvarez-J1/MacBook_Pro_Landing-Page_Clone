@@ -664,7 +664,8 @@ a:focus-visible {
     color: var(--color-text-soft);
 }
 
-.footer__bottom a:hover {
+.footer__bottom a:hover,
+.footer__bottom a:focus-visible {
     text-decoration: underline;
 }
 
@@ -691,7 +692,8 @@ a:focus-visible {
     text-decoration: none;
 }
 
-.footer__legal a:hover {
+.footer__legal a:hover,
+.footer__legal a:focus-visible {
     text-decoration: underline;
 }
 
