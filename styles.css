@@ -711,6 +711,7 @@ a:focus-visible {
     .hero,
     .specs,
     .modal-content,
+    .basket-dropdown,
     .footer__middle,
     .footer__bottom {
         opacity: 1;
