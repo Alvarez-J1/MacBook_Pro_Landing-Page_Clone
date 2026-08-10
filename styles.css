@@ -21,6 +21,7 @@
     --color-play-hover: rgba(255, 255, 255, 0.3);
     --color-spec-divider: rgba(255, 255, 255, 0.1);
     --radius-small: 0.25rem;
+    --radius-medium: 8px;
     --radius-pill: 2rem;
     --radius-round: 50%;
 }
@@ -505,7 +506,7 @@ a:focus-visible {
     background: var(--color-overlay);
     color: var(--color-text);
     border: 1px solid var(--color-border-panel);
-    border-radius: 8px;
+    border-radius: var(--radius-medium);
     z-index: 1000;
     animation: dropdown 0.3s ease-in-out;
 }
