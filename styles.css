@@ -27,6 +27,7 @@
     --content-max-width: 1200px;
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
+    --transition-fast: 0.2s ease-in-out;
 }
 
 html {
@@ -59,7 +60,7 @@ img {
     border-radius: var(--radius-small);
     text-decoration: none;
     transform: translateY(-150%);
-    transition: transform 0.2s ease-in-out;
+    transition: transform var(--transition-fast);
 }
 
 .skip-link:focus-visible {
