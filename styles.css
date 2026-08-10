@@ -21,6 +21,7 @@
     --color-play-hover: rgba(255, 255, 255, 0.3);
     --color-spec-divider: rgba(255, 255, 255, 0.1);
     --radius-small: 0.25rem;
+    --radius-round: 50%;
 }
 
 html {
@@ -174,7 +175,7 @@ a:focus-visible {
     right: -10px;
     background: var(--color-accent);
     color: var(--color-white);
-    border-radius: 50%;
+    border-radius: var(--radius-round);
     padding: 0.25rem 0.5rem;
     font-size: 0.75rem;
 }
