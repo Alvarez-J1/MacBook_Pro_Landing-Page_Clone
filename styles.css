@@ -563,7 +563,7 @@ a:focus-visible {
 }
 
 .footer__container {
-    max-width: 1200px;
+    max-width: var(--content-max-width);
     margin: auto;
 }
 
