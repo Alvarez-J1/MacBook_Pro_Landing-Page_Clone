@@ -26,6 +26,7 @@
     --radius-round: 50%;
     --content-max-width: 1200px;
     --focus-outline-width: 2px;
+    --focus-outline-offset: 4px;
 }
 
 html {
@@ -67,7 +68,7 @@ img {
 
 a:focus-visible {
     outline: var(--focus-outline-width) solid var(--color-white);
-    outline-offset: 4px;
+    outline-offset: var(--focus-outline-offset);
 }
 
 #main-content:focus {
