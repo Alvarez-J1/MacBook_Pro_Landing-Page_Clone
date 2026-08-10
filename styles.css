@@ -20,6 +20,7 @@
     --color-hero-end: rgb(34, 25, 217);
     --color-play-hover: rgba(255, 255, 255, 0.3);
     --color-spec-divider: rgba(255, 255, 255, 0.1);
+    --radius-small: 0.25rem;
 }
 
 html {
@@ -49,7 +50,7 @@ img {
     color: var(--color-white);
     background: var(--color-black);
     border: 1px solid var(--color-text);
-    border-radius: 0.25rem;
+    border-radius: var(--radius-small);
     text-decoration: none;
     transform: translateY(-150%);
     transition: transform 0.2s ease-in-out;
