@@ -21,6 +21,7 @@
     --color-play-hover: rgba(255, 255, 255, 0.3);
     --color-spec-divider: rgba(255, 255, 255, 0.1);
     --radius-small: 0.25rem;
+    --radius-pill: 2rem;
     --radius-round: 50%;
 }
 
@@ -293,7 +294,7 @@ a:focus-visible {
     color: var(--color-white);
     background: linear-gradient(90deg, var(--color-hero-start) 0%, var(--color-hero-end) 100%);
     text-decoration: none;
-    border-radius: 2rem;
+    border-radius: var(--radius-pill);
     transition: opacity 0.3s ease-in-out;
     margin-top: 3rem;
 }
