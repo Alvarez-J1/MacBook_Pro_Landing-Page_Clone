@@ -227,7 +227,7 @@ a:focus-visible {
     justify-content: space-between;
     align-items: center;
     padding: 8rem 2rem;
-    max-width: 1200px;
+    max-width: var(--content-max-width);
     margin: auto;
     opacity: 0;
     transform: translateY(20px);
