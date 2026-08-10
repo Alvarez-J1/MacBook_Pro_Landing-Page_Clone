@@ -2,6 +2,7 @@
 
 /* General */
 :root {
+    --font-body: 'Open Sans', Arial, Helvetica, sans-serif;
     --color-page-start: rgb(33, 33, 33);
     --color-page-end: rgb(0, 0, 0);
     --color-text: #bbbbbb;
@@ -29,7 +30,7 @@ body, html {
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, var(--color-page-start) 0%, var(--color-page-end) 100%);
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--font-body);
     color: var(--color-text);
     scroll-behavior: smooth;
 }
