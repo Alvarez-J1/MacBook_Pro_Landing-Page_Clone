@@ -28,6 +28,7 @@
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
+    --transition-standard: 0.3s ease-in-out;
 }
 
 html {
@@ -300,7 +301,7 @@ a:focus-visible {
     background: linear-gradient(90deg, var(--color-hero-start) 0%, var(--color-hero-end) 100%);
     text-decoration: none;
     border-radius: var(--radius-pill);
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity var(--transition-standard);
     margin-top: 3rem;
 }
 
