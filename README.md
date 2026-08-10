@@ -6,7 +6,7 @@ This project focuses on pixel-perfect UI replication, layout consistency, and re
 
 ## Live Demo
 
-https://mac-book-pro-landing-page-clone.vercel.app/
+[Open the live demo](https://mac-book-pro-landing-page-clone.vercel.app/)
 
 ## Features
 1. Pixel-Perfect Apple-Inspired UI
