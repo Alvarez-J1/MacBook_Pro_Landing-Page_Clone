@@ -24,6 +24,7 @@
     --radius-medium: 8px;
     --radius-pill: 2rem;
     --radius-round: 50%;
+    --content-max-width: 1200px;
 }
 
 html {
@@ -91,7 +92,7 @@ a:focus-visible {
     align-items: center;
     padding: 1rem;
     margin: auto;
-    max-width: 1200px;
+    max-width: var(--content-max-width);
     color: var(--color-text);
 }
 
