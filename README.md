@@ -2,7 +2,7 @@
 A responsive Apple MacBook Pro product landing page clone inspired by Apple’s official website design system.
 This project focuses on pixel-perfect UI replication, layout consistency, and responsive behavior across breakpoints.
 
-<img width="1406" height="722" alt="image" src="https://github.com/user-attachments/assets/7a7c279d-06e1-4ed5-9f93-eaaa750c7ddf" />
+<img width="1406" height="722" alt="MacBook Pro landing page preview" src="https://github.com/user-attachments/assets/7a7c279d-06e1-4ed5-9f93-eaaa750c7ddf" />
 
 ## Live Demo
 
