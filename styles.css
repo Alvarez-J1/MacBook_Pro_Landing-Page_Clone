@@ -312,7 +312,7 @@ a:focus-visible {
     color: var(--color-white);
     padding: 0.5rem 0.65rem;
     border: 2px solid var(--color-text);
-    border-radius: 50%;
+    border-radius: var(--radius-round);
     text-align: center;
     transition: background 0.3s ease-in-out;
     margin-top: 3rem;
