@@ -25,6 +25,7 @@
     --radius-pill: 2rem;
     --radius-round: 50%;
     --content-max-width: 1200px;
+    --hero-content-max-width: 800px;
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
@@ -248,7 +249,7 @@ a:focus-visible {
 }
 
 .hero__text {
-    max-width: 800px;
+    max-width: var(--hero-content-max-width);
     z-index: 1;
     text-align: center;
 }
