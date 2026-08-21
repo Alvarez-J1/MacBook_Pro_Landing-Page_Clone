@@ -340,7 +340,7 @@ a:focus-visible {
 
 .hero__image {
     width: 100%;
-    max-width: 800px;
+    max-width: var(--hero-content-max-width);
 }
 
 .hero__image img {
