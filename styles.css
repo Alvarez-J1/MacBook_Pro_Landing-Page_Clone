@@ -29,6 +29,7 @@
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
     --transition-standard: 0.3s ease-in-out;
+    --space-nav-gap: 2rem;
 }
 
 html {
@@ -196,7 +197,7 @@ a:focus-visible {
 /* NAV */
 .nav {
     display: flex;
-    gap: 2rem;
+    gap: var(--space-nav-gap);
     padding-top: 0.25rem;
 }
 
