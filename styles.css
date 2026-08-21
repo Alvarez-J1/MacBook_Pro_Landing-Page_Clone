@@ -27,6 +27,7 @@
     --content-max-width: 1200px;
     --hero-content-max-width: 800px;
     --hero-desktop-image-width: 1400px;
+    --modal-max-width: 700px;
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
@@ -442,7 +443,7 @@ a:focus-visible {
     padding: 0;
     width: 100%;
     height: 50vh;
-    max-width: 700px;
+    max-width: var(--modal-max-width);
     animation: slideIn 0.5s;
 }
 
