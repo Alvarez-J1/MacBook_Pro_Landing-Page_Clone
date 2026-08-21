@@ -30,6 +30,7 @@
     --transition-fast: 0.2s ease-in-out;
     --transition-standard: 0.3s ease-in-out;
     --space-nav-gap: 2rem;
+    --space-action-gap: 1rem;
 }
 
 html {
@@ -155,7 +156,7 @@ a:focus-visible {
     top: 2rem;
     align-items: center;
     padding-top: 0.5rem;
-    gap: 1rem;
+    gap: var(--space-action-gap);
 }
 
 @media screen and (min-width: 1200px) {
