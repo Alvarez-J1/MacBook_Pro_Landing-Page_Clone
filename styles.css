@@ -241,7 +241,7 @@ a:focus-visible {
     max-width: var(--content-max-width);
     margin: auto;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(var(--entrance-offset-y));
     animation: fadeIn 1s forwards;
     animation-delay: 0.2s;
 }
