@@ -164,7 +164,7 @@ a:focus-visible {
     display: flex;
     position: absolute;
     right: var(--header-action-inset);
-    top: 2rem;
+    top: var(--header-action-inset);
     align-items: center;
     padding-top: 0.5rem;
     gap: var(--space-action-gap);
