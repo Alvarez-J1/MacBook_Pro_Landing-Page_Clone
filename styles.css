@@ -31,6 +31,7 @@
     --hero-section-padding: 8rem 2rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
+    --spec-divider-padding: 3rem;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
@@ -412,7 +413,7 @@ a:focus-visible {
 @media screen and (min-width: 1100px) {
     .spec {
         border-right: 1px solid var(--color-spec-divider);
-        padding-right: 3rem;
+        padding-right: var(--spec-divider-padding);
     }
 
     .spec:last-of-type {
