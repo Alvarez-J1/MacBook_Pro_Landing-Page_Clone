@@ -49,6 +49,7 @@
     --header-action-inset: 2rem;
     --hero-button-padding: 1rem 3rem;
     --hero-action-top-margin: 3rem;
+    --hero-play-button-padding: 0.5rem 0.65rem;
     --logo-width: 25px;
     --logo-height: 30px;
     --cart-badge-offset: -10px;
@@ -348,7 +349,7 @@ a:focus-visible {
     text-decoration: none;
     font-size: 1.5rem;
     color: var(--color-white);
-    padding: 0.5rem 0.65rem;
+    padding: var(--hero-play-button-padding);
     border: 2px solid var(--color-text);
     border-radius: var(--radius-round);
     text-align: center;
