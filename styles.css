@@ -34,6 +34,7 @@
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
     --transition-standard: 0.3s ease-in-out;
+    --duration-fade-long: 2s;
     --space-nav-gap: 2rem;
     --space-action-gap: 1rem;
 }
@@ -227,7 +228,7 @@ a:focus-visible {
 .fade-in {
     opacity: 0;
     transform: translateY(var(--entrance-offset-y));
-    animation: fadeIn 2s forwards;
+    animation: fadeIn var(--duration-fade-long) forwards;
 }
 
 /* Hero Section */
