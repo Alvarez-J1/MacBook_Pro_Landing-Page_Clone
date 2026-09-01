@@ -376,7 +376,7 @@ a:focus-visible {
     gap: 2rem;
     opacity: 0;
     transform: translateY(var(--entrance-offset-y));
-    animation: fadeIn 1s forwards;
+    animation: fadeIn var(--duration-fade-standard) forwards;
     animation-delay: 0.4s;
 }
 
