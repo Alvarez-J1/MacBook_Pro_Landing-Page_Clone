@@ -57,6 +57,7 @@
     --close-control-size: 35px;
     --modal-close-right: 20px;
     --basket-close-inset: 10px;
+    --basket-dropdown-top: 40px;
 }
 
 html {
@@ -533,7 +534,7 @@ a:focus-visible {
 .basket-dropdown {
     display: none;
     position: absolute;
-    top: 40px;
+    top: var(--basket-dropdown-top);
     right: 0;
     width: var(--basket-dropdown-width);
     background: var(--color-overlay);
