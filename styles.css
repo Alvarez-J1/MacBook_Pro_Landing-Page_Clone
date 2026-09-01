@@ -44,6 +44,7 @@
     --header-action-inset: 2rem;
     --logo-width: 25px;
     --logo-height: 30px;
+    --cart-badge-offset: -10px;
 }
 
 html {
@@ -193,7 +194,7 @@ a:focus-visible {
 
 .cart-count {
     position: absolute;
-    top: -10px;
+    top: var(--cart-badge-offset);
     right: -10px;
     background: var(--color-accent);
     color: var(--color-white);
