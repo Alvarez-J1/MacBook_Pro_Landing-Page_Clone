@@ -353,7 +353,7 @@ a:focus-visible {
     border-radius: var(--radius-round);
     text-align: center;
     transition: background var(--transition-standard);
-    margin-top: 3rem;
+    margin-top: var(--hero-action-top-margin);
 }
 
 .hero__playbutton i:before {
