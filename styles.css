@@ -27,6 +27,7 @@
     --content-max-width: 1200px;
     --hero-content-max-width: 800px;
     --hero-desktop-image-width: 1400px;
+    --hero-desktop-image-offset: -600px;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
@@ -372,7 +373,7 @@ a:focus-visible {
         position: absolute;
         top: 0;
         height: auto;
-        right: -600px;
+        right: var(--hero-desktop-image-offset);
         width: var(--hero-desktop-image-width);
     }
 }
