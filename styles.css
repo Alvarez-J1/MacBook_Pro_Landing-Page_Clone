@@ -29,6 +29,7 @@
     --hero-desktop-image-width: 1400px;
     --hero-desktop-image-offset: -600px;
     --hero-section-padding: 8rem 2rem;
+    --hero-description-margin: 3rem 0;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
     --spec-divider-padding: 3rem;
@@ -302,7 +303,7 @@ a:focus-visible {
 
 .hero__description {
     font-size: 1.25rem;
-    margin: 3rem 0;
+    margin: var(--hero-description-margin);
 }
 
 .hero__price {
