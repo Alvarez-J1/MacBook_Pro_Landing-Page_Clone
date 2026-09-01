@@ -49,6 +49,7 @@
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
     --footer-column-min-width: 150px;
+    --close-control-size: 35px;
 }
 
 html {
@@ -473,7 +474,7 @@ a:focus-visible {
     position: absolute;
     top: 20%;
     right: 20px;
-    font-size: 35px;
+    font-size: var(--close-control-size);
     font-weight: bold;
     text-decoration: none;
     transition: color var(--transition-standard);
