@@ -195,7 +195,7 @@ a:focus-visible {
 .cart-count {
     position: absolute;
     top: var(--cart-badge-offset);
-    right: -10px;
+    right: var(--cart-badge-offset);
     background: var(--color-accent);
     color: var(--color-white);
     border-radius: var(--radius-round);
