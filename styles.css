@@ -30,6 +30,7 @@
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
+    --dropdown-start-offset-y: -10px;
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
@@ -566,7 +567,7 @@ a:focus-visible {
 }
 
 @keyframes dropdown {
-    from {opacity: 0; transform: translateY(-10px);}
+    from {opacity: 0; transform: translateY(var(--dropdown-start-offset-y));}
     to {opacity: 1; transform: translateY(0);}
 }
 
