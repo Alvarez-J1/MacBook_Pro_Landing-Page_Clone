@@ -29,6 +29,7 @@
     --hero-desktop-image-width: 1400px;
     --hero-desktop-image-offset: -600px;
     --hero-section-padding: 8rem 2rem;
+    --specs-section-padding: 2rem 4rem;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
@@ -384,7 +385,7 @@ a:focus-visible {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: var(--specs-section-padding);
     max-width: var(--content-max-width);
     margin: 2rem auto 6rem auto;
     gap: 2rem;
