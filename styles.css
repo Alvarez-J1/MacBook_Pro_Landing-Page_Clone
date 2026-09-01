@@ -43,6 +43,7 @@
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
     --logo-width: 25px;
+    --logo-height: 30px;
 }
 
 html {
@@ -151,7 +152,7 @@ a:focus-visible {
 
 .header__logo__image {
     width: var(--logo-width);
-    height: 30px;
+    height: var(--logo-height);
 }
 
 .header__logo__text {
