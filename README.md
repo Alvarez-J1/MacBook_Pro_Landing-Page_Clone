@@ -22,18 +22,18 @@ Maintains layout integrity without breaking below 1200px
 Adaptive spacing and alignment similar to Apple’s official site behavior
 Optimized for ultra-wide and standard desktop screens
 
-4. Modern UI Structure
+3. Modern UI Structure
 Hero product section with layered MacBook visuals
 Typography hierarchy matching Apple-style marketing flow
 Clean CTA button styling (“Order Now” style interaction)
 Feature metric row (CPU, GPU, ML, Battery performance) 
 
-5. Performance & Simplicity
+4. Performance & Simplicity
 Lightweight static frontend
 No framework overhead (pure HTML/CSS)
 Optimized image usage for fast load times
 
-6. Design Accuracy Focus
+5. Design Accuracy Focus
 Spacing and alignment tuned for visual balance
 Consistent grid structure across sections
 Footer layout modeled after Apple’s global navigation system
