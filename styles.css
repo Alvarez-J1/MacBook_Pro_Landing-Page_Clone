@@ -56,6 +56,7 @@
     --footer-column-min-width: 150px;
     --close-control-size: 35px;
     --modal-close-right: 20px;
+    --basket-close-inset: 10px;
 }
 
 html {
@@ -553,7 +554,7 @@ a:focus-visible {
 
 .basket-dropdown .close {
     position: absolute;
-    top: 10px;
+    top: var(--basket-close-inset);
     right: 10px;
     font-size: 1.25rem;
     color: var(--color-text);
