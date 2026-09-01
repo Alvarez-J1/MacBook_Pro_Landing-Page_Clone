@@ -47,6 +47,7 @@
     --space-nav-gap: 2rem;
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
+    --hero-button-padding: 1rem 3rem;
     --logo-width: 25px;
     --logo-height: 30px;
     --cart-badge-offset: -10px;
@@ -324,7 +325,7 @@ a:focus-visible {
 
 .hero__button {
     display: inline-block;
-    padding: 1rem 3rem;
+    padding: var(--hero-button-padding);
     font-size: 1.25rem;
     color: var(--color-white);
     background: linear-gradient(90deg, var(--color-hero-start) 0%, var(--color-hero-end) 100%);
