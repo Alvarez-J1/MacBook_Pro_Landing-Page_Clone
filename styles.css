@@ -47,6 +47,7 @@
     --cart-badge-offset: -10px;
     --basket-dropdown-width: 250px;
     --basket-item-image-width: 100px;
+    --basket-dropdown-image-width: 50px;
 }
 
 html {
@@ -559,7 +560,7 @@ a:focus-visible {
 }
 
 .basket-dropdown .basket-item img {
-    width: 50px;
+    width: var(--basket-dropdown-image-width);
 }
 
 .basket-dropdown .basket-item-details h3 {
