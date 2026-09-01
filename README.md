@@ -39,12 +39,10 @@ Consistent grid structure across sections
 Footer layout modeled after Apple’s global navigation system
 
 ## Tech Stack
-```text
--HTML5
--CSS3 (Flexbox + Responsive Design)
--Figma (design reference / layout planning)
--Assets (custom images + Apple-inspired UI assets)
- ```
+- HTML5
+- CSS3 (Flexbox + Responsive Design)
+- Figma (design reference / layout planning)
+- Assets (custom images + Apple-inspired UI assets)
 
 ## Project Structure
 ```text
