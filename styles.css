@@ -29,6 +29,7 @@
     --hero-desktop-image-width: 1400px;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
+    --entrance-offset-y: 20px;
     --focus-outline-width: 2px;
     --focus-outline-offset: 4px;
     --transition-fast: 0.2s ease-in-out;
@@ -225,7 +226,7 @@ a:focus-visible {
 
 .fade-in {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(var(--entrance-offset-y));
     animation: fadeIn 2s forwards;
 }
 
