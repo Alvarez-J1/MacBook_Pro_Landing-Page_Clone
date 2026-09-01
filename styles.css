@@ -555,7 +555,7 @@ a:focus-visible {
 .basket-dropdown .close {
     position: absolute;
     top: var(--basket-close-inset);
-    right: 10px;
+    right: var(--basket-close-inset);
     font-size: 1.25rem;
     color: var(--color-text);
     text-decoration: none;
