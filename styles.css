@@ -48,6 +48,7 @@
     --basket-dropdown-width: 250px;
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
+    --footer-column-min-width: 150px;
 }
 
 html {
@@ -637,7 +638,7 @@ a:focus-visible {
 
 .footer__column {
     flex: 1;
-    min-width: 150px;
+    min-width: var(--footer-column-min-width);
 }
 
 .footer__column h4 {
