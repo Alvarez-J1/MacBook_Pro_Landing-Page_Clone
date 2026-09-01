@@ -48,6 +48,7 @@
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
     --hero-button-padding: 1rem 3rem;
+    --hero-action-top-margin: 3rem;
     --logo-width: 25px;
     --logo-height: 30px;
     --cart-badge-offset: -10px;
@@ -332,7 +333,7 @@ a:focus-visible {
     text-decoration: none;
     border-radius: var(--radius-pill);
     transition: opacity var(--transition-standard);
-    margin-top: 3rem;
+    margin-top: var(--hero-action-top-margin);
 }
 
 .hero__button:hover,
