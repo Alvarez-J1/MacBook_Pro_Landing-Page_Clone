@@ -449,7 +449,7 @@ a:focus-visible {
     width: 100%;
     height: 50vh;
     max-width: var(--modal-max-width);
-    animation: slideIn 0.5s;
+    animation: slideIn var(--duration-modal);
 }
 
 .modal-content iframe {
