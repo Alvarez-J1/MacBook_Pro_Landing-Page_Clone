@@ -30,6 +30,7 @@
     --hero-desktop-image-offset: -600px;
     --hero-section-padding: 8rem 2rem;
     --specs-section-padding: 2rem 4rem;
+    --specs-section-margin: 2rem auto 6rem auto;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
@@ -387,7 +388,7 @@ a:focus-visible {
     align-items: center;
     padding: var(--specs-section-padding);
     max-width: var(--content-max-width);
-    margin: 2rem auto 6rem auto;
+    margin: var(--specs-section-margin);
     gap: 2rem;
     opacity: 0;
     transform: translateY(var(--entrance-offset-y));
