@@ -62,6 +62,7 @@
     --hero-action-top-margin: 3rem;
     --hero-play-button-padding: 0.5rem 0.65rem;
     --hero-play-button-size: 1.5rem;
+    --hero-play-icon-offset: 1px;
     --logo-width: 25px;
     --logo-height: 30px;
     --cart-badge-offset: -10px;
@@ -379,7 +380,7 @@ a:focus-visible {
 
 .hero__playbutton i:before {
     position: relative;
-    left: 1px;
+    left: var(--hero-play-icon-offset);
 }
 
 .hero__playbutton:hover,
