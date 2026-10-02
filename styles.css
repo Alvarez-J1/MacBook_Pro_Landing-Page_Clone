@@ -57,6 +57,7 @@
     --logo-height: 30px;
     --cart-badge-offset: -10px;
     --cart-badge-padding: 0.25rem 0.5rem;
+    --cart-badge-font-size: 0.75rem;
     --basket-dropdown-width: 250px;
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
@@ -226,7 +227,7 @@ a:focus-visible {
     color: var(--color-white);
     border-radius: var(--radius-round);
     padding: var(--cart-badge-padding);
-    font-size: 0.75rem;
+    font-size: var(--cart-badge-font-size);
 }
 
 .cart-icon:hover .cart-count,
