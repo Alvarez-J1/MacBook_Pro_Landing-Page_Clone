@@ -67,6 +67,7 @@
     --header-left-small-padding: 5rem;
     --header-left-medium-padding: 7rem;
     --header-left-desktop-gap: 7rem;
+    --header-left-desktop-padding: 10rem;
 }
 
 html {
@@ -163,7 +164,7 @@ a:focus-visible {
     .header__left-column {
         gap: var(--header-left-desktop-gap);
         justify-content: start;
-        padding-right: 10rem;
+        padding-right: var(--header-left-desktop-padding);
     }
 }
 
