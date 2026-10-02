@@ -30,6 +30,7 @@
     --hero-desktop-image-offset: -600px;
     --hero-section-padding: 8rem 2rem;
     --hero-description-margin: 3rem 0;
+    --hero-title-size: 2rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
     --spec-divider-padding: 3rem;
@@ -302,7 +303,7 @@ a:focus-visible {
 }
 
 .hero__title {
-    font-size: 2rem;
+    font-size: var(--hero-title-size);
     font-weight: 400;
 }
 
