@@ -39,6 +39,7 @@
     --hero-buttons-margin-top: 1.5rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
+    --specs-gap: 2rem;
     --spec-divider-padding: 3rem;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
@@ -159,7 +160,7 @@ a:focus-visible {
     justify-content: center;
     padding-right: 0;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: var(--specs-gap);
 }
 
 @media screen and (min-width: 460px) {
