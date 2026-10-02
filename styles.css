@@ -66,6 +66,7 @@
     --header-left-gap: 2rem;
     --header-left-small-padding: 5rem;
     --header-left-medium-padding: 7rem;
+    --header-left-desktop-gap: 7rem;
 }
 
 html {
@@ -160,7 +161,7 @@ a:focus-visible {
 
 @media screen and (min-width: 1200px) {
     .header__left-column {
-        gap: 7rem;
+        gap: var(--header-left-desktop-gap);
         justify-content: start;
         padding-right: 10rem;
     }
