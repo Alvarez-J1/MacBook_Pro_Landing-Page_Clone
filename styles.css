@@ -32,6 +32,7 @@
     --hero-description-margin: 3rem 0;
     --hero-title-size: 2rem;
     --hero-subtitle-size: 3rem;
+    --hero-subtitle-margin-top: 0.5rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
     --spec-divider-padding: 3rem;
@@ -311,7 +312,7 @@ a:focus-visible {
 .hero__subtitle {
     font-size: var(--hero-subtitle-size);
     font-weight: 600;
-    margin-top: 0.5rem;
+    margin-top: var(--hero-subtitle-margin-top);
 }
 
 .hero__description {
