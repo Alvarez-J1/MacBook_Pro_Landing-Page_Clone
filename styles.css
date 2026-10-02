@@ -46,6 +46,7 @@
     --duration-fade-standard: 1s;
     --duration-fade-long: 2s;
     --space-nav-gap: 2rem;
+    --nav-padding-top: 0.25rem;
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
     --header-action-padding-top: 0.5rem;
@@ -240,7 +241,7 @@ a:focus-visible {
 .nav {
     display: flex;
     gap: var(--space-nav-gap);
-    padding-top: 0.25rem;
+    padding-top: var(--nav-padding-top);
 }
 
 .nav__link {
