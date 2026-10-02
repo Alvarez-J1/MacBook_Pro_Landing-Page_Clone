@@ -49,6 +49,7 @@
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
     --header-action-padding-top: 0.5rem;
+    --header-icon-size: 1.25rem;
     --hero-button-padding: 1rem 3rem;
     --hero-action-top-margin: 3rem;
     --hero-play-button-padding: 0.5rem 0.65rem;
@@ -205,7 +206,7 @@ a:focus-visible {
 
 .header__right-column i {
     color: var(--color-white);
-    font-size: 1.25rem;
+    font-size: var(--header-icon-size);
 }
 
 /* Cart Icon */
