@@ -36,6 +36,7 @@
     --hero-body-size: 1.25rem;
     --hero-price-size: 1.75rem;
     --hero-price-margin-top: 1rem;
+    --hero-buttons-margin-top: 1.5rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
     --spec-divider-padding: 3rem;
@@ -333,7 +334,7 @@ a:focus-visible {
     display: flex;
     align-items: center;
     gap: var(--space-action-gap);
-    margin-top: 1.5rem;
+    margin-top: var(--hero-buttons-margin-top);
     justify-content: center;
 }
 
