@@ -35,6 +35,7 @@
     --hero-subtitle-margin-top: 0.5rem;
     --hero-body-size: 1.25rem;
     --hero-price-size: 1.75rem;
+    --hero-price-margin-top: 1rem;
     --specs-section-padding: 2rem 4rem;
     --specs-section-margin: 2rem auto 6rem auto;
     --spec-divider-padding: 3rem;
@@ -325,7 +326,7 @@ a:focus-visible {
 .hero__price {
     font-size: var(--hero-price-size);
     font-weight: 100;
-    margin-top: 1rem;
+    margin-top: var(--hero-price-margin-top);
 }
 
 .hero__buttons {
