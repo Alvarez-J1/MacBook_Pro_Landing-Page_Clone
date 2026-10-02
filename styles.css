@@ -63,6 +63,7 @@
     --basket-close-inset: 10px;
     --basket-dropdown-top: 40px;
     --header-padding: 1rem;
+    --header-left-gap: 2rem;
 }
 
 html {
@@ -398,7 +399,7 @@ a:focus-visible {
     padding: var(--specs-section-padding);
     max-width: var(--content-max-width);
     margin: var(--specs-section-margin);
-    gap: 2rem;
+    gap: var(--header-left-gap);
     opacity: 0;
     transform: translateY(var(--entrance-offset-y));
     animation: fadeIn var(--duration-fade-standard) forwards;
