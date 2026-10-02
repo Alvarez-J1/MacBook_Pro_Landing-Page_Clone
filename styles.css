@@ -48,6 +48,7 @@
     --space-nav-gap: 2rem;
     --space-action-gap: 1rem;
     --header-action-inset: 2rem;
+    --header-action-padding-top: 0.5rem;
     --hero-button-padding: 1rem 3rem;
     --hero-action-top-margin: 3rem;
     --hero-play-button-padding: 0.5rem 0.65rem;
@@ -192,7 +193,7 @@ a:focus-visible {
     right: var(--header-action-inset);
     top: var(--header-action-inset);
     align-items: center;
-    padding-top: 0.5rem;
+    padding-top: var(--header-action-padding-top);
     gap: var(--space-action-gap);
 }
 
