@@ -596,7 +596,7 @@ a:focus-visible {
     display: flex;
     align-items: center;
     gap: var(--space-action-gap);
-    margin-top: 2rem;
+    margin-top: var(--basket-item-margin-top);
 }
 
 .basket-dropdown .basket-item img {
