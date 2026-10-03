@@ -57,12 +57,10 @@ Apple_UI/
  ```
 
 ## Key Learning Outcomes
-```text
--Improved understanding of responsive layout systems
--Practiced replicating high-end production UI (Apple-level design)
--Learned how to manage spacing consistency across breakpoints
--Strengthened UI/UX judgment for real-world product pages
- ```
+- Improved understanding of responsive layout systems
+- Practiced replicating high-end production UI (Apple-level design)
+- Learned how to manage spacing consistency across breakpoints
+- Strengthened UI/UX judgment for real-world product pages
 
 ## Author
 Joel Alvarez
