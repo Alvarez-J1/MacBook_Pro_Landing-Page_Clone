@@ -74,6 +74,7 @@
     --cart-badge-font-size: 0.75rem;
     --basket-dropdown-width: 250px;
     --basket-title-size: 1.25rem;
+    --basket-item-margin-top: 2rem;
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
     --footer-column-min-width: 150px;
@@ -543,7 +544,7 @@ a:focus-visible {
     display: flex;
     align-items: center;
     gap: var(--space-action-gap);
-    margin-top: 2rem;
+    margin-top: var(--basket-item-margin-top);
 }
 
 .basket-item img {
