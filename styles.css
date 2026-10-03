@@ -43,6 +43,7 @@
     --spec-divider-padding: 3rem;
     --spec-title-size: 2.25rem;
     --spec-description-size: 1.75rem;
+    --spec-description-margin-top: 0.5rem;
     --modal-max-width: 700px;
     --modal-video-max-height: 700px;
     --entrance-offset-y: 20px;
@@ -464,7 +465,7 @@ a:focus-visible {
 .spec__description {
     font-size: var(--spec-description-size);
     font-weight: 200;
-    margin-top: 0.5rem;
+    margin-top: var(--spec-description-margin-top);
 }
 
 /* Modal */
