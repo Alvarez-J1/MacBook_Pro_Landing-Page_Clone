@@ -78,6 +78,7 @@
     --basket-dropdown-width: 250px;
     --basket-content-padding: 1rem;
     --basket-title-size: 1.25rem;
+    --basket-title-margin: 0;
     --basket-item-margin-top: 2rem;
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
@@ -545,7 +546,7 @@ a:focus-visible {
 
 .basket-title {
     font-size: var(--basket-title-size);
-    margin: 0;
+    margin: var(--basket-title-margin);
 }
 
 .basket-item {
