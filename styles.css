@@ -74,6 +74,7 @@
     --cart-badge-padding: 0.25rem 0.5rem;
     --cart-badge-font-size: 0.75rem;
     --basket-dropdown-width: 250px;
+    --basket-content-padding: 1rem;
     --basket-title-size: 1.25rem;
     --basket-item-margin-top: 2rem;
     --basket-item-image-width: 100px;
@@ -533,7 +534,7 @@ a:focus-visible {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem;
+    padding: var(--basket-content-padding);
     background-color: var(--color-overlay);
     color: var(--color-text);
 }
