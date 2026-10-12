@@ -80,6 +80,7 @@
     --basket-title-size: 1.25rem;
     --basket-title-margin: 0;
     --basket-item-margin-top: 2rem;
+    --basket-item-heading-margin: 0;
     --basket-item-image-width: 100px;
     --basket-dropdown-image-width: 50px;
     --basket-dropdown-title-size: 1rem;
@@ -561,7 +562,7 @@ a:focus-visible {
 }
 
 .basket-item-details h3 {
-    margin: 0;
+    margin: var(--basket-item-heading-margin);
 }
 
 @keyframes slideIn {
