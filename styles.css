@@ -614,7 +614,7 @@ a:focus-visible {
 }
 
 .basket-dropdown .basket-item-details h3 {
-    margin: 0;
+    margin: var(--basket-item-heading-margin);
     font-size: var(--basket-dropdown-title-size);
 }
 
