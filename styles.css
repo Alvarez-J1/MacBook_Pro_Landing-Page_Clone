@@ -85,6 +85,7 @@
     --basket-dropdown-image-width: 50px;
     --basket-dropdown-title-size: 1rem;
     --basket-dropdown-detail-size: 0.875rem;
+    --basket-dropdown-detail-margin: 0;
     --footer-column-min-width: 150px;
     --close-control-size: 35px;
     --modal-close-top: 20%;
@@ -619,7 +620,7 @@ a:focus-visible {
 }
 
 .basket-dropdown .basket-item-details p {
-    margin: 0;
+    margin: var(--basket-dropdown-detail-margin);
     font-size: var(--basket-dropdown-detail-size);
 }
 
