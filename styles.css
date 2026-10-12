@@ -540,7 +540,7 @@ a:focus-visible {
 }
 
 .basket-title {
-    font-size: 1.25rem;
+    font-size: var(--basket-title-size);
     margin: 0;
 }
 
