@@ -85,6 +85,7 @@
     --basket-dropdown-detail-size: 0.875rem;
     --footer-column-min-width: 150px;
     --close-control-size: 35px;
+    --modal-close-top: 20%;
     --modal-close-right: 20px;
     --basket-close-inset: 10px;
     --basket-close-size: 1.25rem;
@@ -517,7 +518,7 @@ a:focus-visible {
 .close {
     color: var(--color-text);
     position: absolute;
-    top: 20%;
+    top: var(--modal-close-top);
     right: var(--modal-close-right);
     font-size: var(--close-control-size);
     font-weight: bold;
