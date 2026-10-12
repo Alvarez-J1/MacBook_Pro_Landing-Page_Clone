@@ -85,6 +85,7 @@
     --close-control-size: 35px;
     --modal-close-right: 20px;
     --basket-close-inset: 10px;
+    --basket-close-size: 1.25rem;
     --basket-dropdown-top: 40px;
     --header-padding: 1rem;
     --header-left-gap: 2rem;
@@ -591,7 +592,7 @@ a:focus-visible {
     position: absolute;
     top: var(--basket-close-inset);
     right: var(--basket-close-inset);
-    font-size: 1.25rem;
+    font-size: var(--basket-close-size);
     color: var(--color-text);
     text-decoration: none;
 }
