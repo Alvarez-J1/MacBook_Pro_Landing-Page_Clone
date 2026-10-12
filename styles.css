@@ -87,6 +87,7 @@
     --basket-dropdown-detail-size: 0.875rem;
     --basket-dropdown-detail-margin: 0;
     --footer-padding: 2rem 1rem;
+    --footer-top-padding-bottom: 1rem;
     --footer-column-min-width: 150px;
     --close-control-size: 35px;
     --modal-close-top: 20%;
@@ -644,7 +645,7 @@ a:focus-visible {
 
 .footer__top {
     border-bottom: 1px solid var(--color-border-subtle);
-    padding-bottom: 1rem;
+    padding-bottom: var(--footer-top-padding-bottom);
     margin-bottom: 1rem;
 }
 
