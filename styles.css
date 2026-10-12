@@ -167,7 +167,7 @@ a:focus-visible {
     justify-content: center;
     padding-right: 0;
     flex-wrap: wrap;
-    gap: var(--specs-gap);
+    gap: var(--header-left-gap);
 }
 
 @media screen and (min-width: 460px) {
