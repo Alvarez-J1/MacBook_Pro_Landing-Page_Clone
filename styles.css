@@ -167,7 +167,7 @@ a:focus-visible {
     justify-content: center;
     padding-right: 0;
     flex-wrap: wrap;
-    gap: var(--specs-gap);
+    gap: var(--header-left-gap);
 }
 
 @media screen and (min-width: 460px) {
@@ -425,7 +425,7 @@ a:focus-visible {
     padding: var(--specs-section-padding);
     max-width: var(--content-max-width);
     margin: var(--specs-section-margin);
-    gap: var(--header-left-gap);
+    gap: var(--specs-gap);
     opacity: 0;
     transform: translateY(var(--entrance-offset-y));
     animation: fadeIn var(--duration-fade-standard) forwards;
