@@ -63,6 +63,7 @@
     --header-action-padding-top: 0.5rem;
     --header-icon-size: 1.25rem;
     --hero-button-padding: 1rem 3rem;
+    --hero-button-font-size: 1.25rem;
     --hero-action-top-margin: 3rem;
     --hero-play-button-padding: 0.5rem 0.65rem;
     --hero-play-button-size: 1.5rem;
@@ -357,7 +358,7 @@ a:focus-visible {
 .hero__button {
     display: inline-block;
     padding: var(--hero-button-padding);
-    font-size: var(--basket-title-size);
+    font-size: var(--hero-button-font-size);
     color: var(--color-white);
     background: linear-gradient(90deg, var(--color-hero-start) 0%, var(--color-hero-end) 100%);
     text-decoration: none;
